@@ -1,5 +1,10 @@
 # Astro 中间件，解决中文 md 乱码问题
 
+![version](https://img.shields.io/npm/v/astro-middleware-cn)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/liruifengv/astro-middleware-cn/pulls)
+![license](https://img.shields.io/npm/l/astro-middleware-cn)
+![downloads](https://img.shields.io/npm/dw/astro-middleware-cn)
+
 ## Bug 描述
 
 在 Astro v3 中，在 `pages` 下创建 `test.md` 文件，生成 `/test` 的页面路由，`astro dev` 开发服务器下会导致中文乱码。
