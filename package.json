@@ -1,14 +1,32 @@
 {
   "name": "astro-middleware-cn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Astro middleware for chinese md page.",
   "main": "middleware.ts",
   "directories": {
     "examples": "examples"
   },
-  "author": "liruifengv",
-  "license": "MIT",
   "peerDependencies": {
     "astro": ">=3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liruifengv/astro-middleware-cn.git"
+  },
+  "keywords": [
+    "withastro",
+    "astro",
+    "middleware",
+    "charset",
+    "a11y"
+  ],
+  "author": "liruifengv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liruifengv/astro-middleware-cns/issues"
+  },
+  "homepage": "https://github.com/liruifengv/astro-middleware-cn#readme",
+  "publishConfig": {
+    "access": "public"
   }
 }

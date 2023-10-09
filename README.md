@@ -20,6 +20,24 @@
 
 ## 使用方法
 
+### 从 npm 安装
+
+```bash
+npm install astro-middleware-cn
+```
+
+在你的 `middleware.ts` 中使用
+
+```ts
+import { sequence } from "astro:middleware";
+import { onRequest as cn } from 'astro-middleware-cn';
+
+export const onRequest = sequence(cn);
+```
+
+### 直接复制代码
+创建 `middleware.ts` 文件，复制以下代码
+
 ```ts
 import { defineMiddleware } from "astro:middleware";
 
