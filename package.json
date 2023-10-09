@@ -1,0 +1,14 @@
+{
+  "name": "astro-middleware-cn",
+  "version": "0.0.1",
+  "description": "Astro middleware for chinese md page.",
+  "main": "middleware.ts",
+  "directories": {
+    "examples": "examples"
+  },
+  "author": "liruifengv",
+  "license": "MIT",
+  "peerDependencies": {
+    "astro": ">=3.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.DS_Store
+
+.pnpm-store
+
+
+# do not commit .env files or any files that end with `.env`
+*.env
+
+# exclude IntelliJ/WebStorm stuff
+.idea
+
+examples/**/.astro/
+examples/**/env.d.ts
+examples/**/dist/
+examples/**/node_modules/
